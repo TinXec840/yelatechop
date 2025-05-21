@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Futuro de las Interfaces de Almacenamiento</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+
+    marquee {
+      font-size: 28px;
+      color: #00f0ff;
+      margin-bottom: 15px;
+    }
+
+    p.descripcion {
+      max-width: 800px;
+      margin: 0 auto 30px;
+      font-size: 18px;
+      text-align: center;
+      color: #cccccc;
+    }
+
+    .content-section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 24px;
+      margin-top: 40px;
+      color: #00f0ff;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 40px 0;
+      color: #fff;
+    }
+
+    table th, table td {
+      padding: 12px;
+      text-align: center;
+      border: 1px solid #444;
+    }
+
+    table th {
+      background-color: #333;
+    }
+
+    table tr:nth-child(even) {
+      background-color: #222;
+    }
+
+    table tr:hover {
+      background-color: #555;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .image-container img {
+      width: 80%;
+      max-width: 600px;
+      border-radius: 10px;
+    }
+
+    .volver {
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .volver a {
+      color: #00f0ff;
+      font-size: 18px;
+      text-decoration: none;
+    }
+
+    .volver a:hover {
+      color: #00ffee;
+    }
+
+    .video-container {
+      display: flex;
+      justify-content: center;
+      margin: 30px 0;
+    }
+
+    video {
+      width: 90%;
+      max-width: 500px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Futuro de las Interfaces de Almacenamiento</h1>
+    <marquee behavior="alternate" scrollamount="10">SATA vs NVMe vs PCIe 4.0/5.0: velocidad, eficiencia y lo que viene</marquee>
+  </header>
+
+  <!-- Video introductorio -->
+  <div class="video-container">
+    <video controls>
+      <source src="F:\Diseño Web\proyecto ddw\videoplayback (2).mp4" type="video/mp4">
+      Tu navegador no soporta este formato de video.
+    </video>
+  </div>
+
+  <p class="descripcion">En esta página analizamos cómo han evolucionado las interfaces de almacenamiento y hacia dónde se dirigen. Exploramos comparativas entre tecnologías como SATA, NVMe, y los últimos avances con PCIe 4.0 y 5.0.</p>
+
+  <div class="content-section">
+    <h2 class="section-title">Resumen de las Interfaces Actuales</h2>
+    <p>SATA ha sido el estándar durante muchos años, pero las unidades NVMe sobre PCIe han revolucionado el almacenamiento con velocidades muy superiores. A continuación, vemos una comparativa entre estas tecnologías:</p>
+
+    <table>
+      <tr>
+        <th>Interfaz</th>
+        <th>Velocidad Máxima</th>
+        <th>Latencia</th>
+        <th>Consumo Energético</th>
+      </tr>
+      <tr>
+        <td>SATA III</td>
+        <td>600 MB/s</td>
+        <td>Alta</td>
+        <td>Bajo</td>
+      </tr>
+      <tr>
+        <td>NVMe PCIe 3.0</td>
+        <td>3500 MB/s</td>
+        <td>Media</td>
+        <td>Moderado</td>
+      </tr>
+      <tr>
+        <td>NVMe PCIe 4.0</td>
+        <td>7000 MB/s</td>
+        <td>Baja</td>
+        <td>Moderado</td>
+      </tr>
+      <tr>
+        <td>NVMe PCIe 5.0</td>
+        <td>13000+ MB/s</td>
+        <td>Mínima</td>
+        <td>Alto</td>
+      </tr>
+    </table>
+
+    <div class="image-container">
+      <img src="F:\Diseño Web\proyecto ddw\como-elegir-un-ssd-02-1024x1024.jpg" alt="Evolución del almacenamiento SSD">
+    </div>
+  </div>
+
+  <div class="content-section">
+    <h2 class="section-title">Tendencias Futuras</h2>
+    <p>El futuro del almacenamiento está enfocado en reducir la latencia y aumentar el rendimiento sin incrementar demasiado el consumo. PCIe 6.0 ya está en desarrollo y promete duplicar el ancho de banda nuevamente. Además, se exploran nuevas formas como CXL y tecnologías de almacenamiento persistente como Optane y memoria NAND de múltiples capas.</p>
+  </div>
+
+  <div class="content-section">
+    <h2 class="section-title">¿Qué Elegir Hoy?</h2>
+    <p>Para la mayoría de los usuarios, NVMe PCIe 4.0 representa el mejor equilibrio entre rendimiento y precio. PCIe 5.0 está destinado a usuarios entusiastas, centros de datos y profesionales que manejan cargas de trabajo intensas. SATA sigue siendo útil para almacenamiento masivo económico.</p>
+  </div>
+
+  <div class="volver">
+    <a href="file:///E:/Xpz/hardwaremenu.html">← Volver al Menú Principal</a>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comparativa: SSD vs HDD</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+
+    marquee {
+      font-size: 28px;
+      color: #00f0ff;
+      margin-bottom: 15px;
+    }
+
+    p.descripcion {
+      max-width: 800px;
+      margin: 0 auto 30px;
+      font-size: 18px;
+      text-align: center;
+      color: #cccccc;
+    }
+
+    .content-section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 24px;
+      margin-top: 40px;
+      color: #00f0ff;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 40px 0;
+      color: #fff;
+    }
+
+    table th, table td {
+      padding: 12px;
+      text-align: center;
+      border: 1px solid #444;
+    }
+
+    table th {
+      background-color: #333;
+    }
+
+    table tr:nth-child(even) {
+      background-color: #222;
+    }
+
+    table tr:hover {
+      background-color: #555;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .image-container img {
+      width: 80%;
+      max-width: 600px;
+      border-radius: 10px;
+    }
+
+    .volver {
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .volver a {
+      color: #00f0ff;
+      font-size: 18px;
+      text-decoration: none;
+    }
+
+    .volver a:hover {
+      color: #00ffee;
+    }
+
+    .video-container {
+      display: flex;
+      justify-content: center;
+      margin: 30px 0;
+    }
+
+    video {
+      width: 90%;
+      max-width: 500px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Comparativa: SSD vs HDD</h1>
+    <marquee behavior="alternate" scrollamount="10">Velocidad, durabilidad y precio en el almacenamiento moderno</marquee>
+  </header>
+
+  <div class="video-container">
+    <video controls>
+      <source src="F:\Diseño Web\proyecto ddw\Ten cuidado al comprar tu próximo SSD NVMe.mp4" type="video/mp4">
+      Tu navegador no soporta este formato de video.
+    </video>
+  </div>
+
+  <p class="descripcion">Los discos duros tradicionales y los discos de estado sólido tienen diferencias clave que afectan directamente al rendimiento del sistema, tiempos de carga, durabilidad y costo. Aquí te explicamos todo lo que necesitas saber para elegir el mejor para tus necesidades.</p>
+
+  <div class="content-section">
+    <h2 class="section-title">¿Qué es un HDD?</h2>
+    <p>Un HDD (disco duro mecánico) utiliza platos giratorios y un cabezal lector para acceder a la información. Esta tecnología lleva décadas en uso y destaca por ofrecer grandes capacidades a bajo costo, aunque con menor velocidad y mayor fragilidad frente a golpes.</p>
+
+    <h2 class="section-title">¿Qué es un SSD?</h2>
+    <p>Un SSD (unidad de estado sólido) almacena datos en chips de memoria flash, similares a los de un USB, lo que permite acceder a la información casi instantáneamente. No tiene partes móviles, lo que lo hace más rápido, silencioso y resistente, aunque suele tener un precio más elevado por gigabyte.</p>
+  </div>
+
+  <div class="content-section">
+    <h2 class="section-title">Comparativa Técnica</h2>
+    <table>
+      <tr>
+        <th>Aspecto</th>
+        <th>HDD</th>
+        <th>SSD</th>
+      </tr>
+      <tr>
+        <td>Velocidad de lectura/escritura</td>
+        <td>100 - 200 MB/s</td>
+        <td>500 - 7000 MB/s</td>
+      </tr>
+      <tr>
+        <td>Durabilidad (golpes, movimiento)</td>
+        <td>Baja (mecánico)</td>
+        <td>Alta (sin partes móviles)</td>
+      </tr>
+      <tr>
+        <td>Precio por GB</td>
+        <td>Más bajo</td>
+        <td>Más alto</td>
+      </tr>
+      <tr>
+        <td>Ruido</td>
+        <td>Presente</td>
+        <td>Nulo</td>
+      </tr>
+      <tr>
+        <td>Consumo de energía</td>
+        <td>Mayor</td>
+        <td>Menor</td>
+      </tr>
+      <tr>
+        <td>Capacidad máxima típica</td>
+        <td>16 TB+</td>
+        <td>4 TB+ (usuarios)</td>
+      </tr>
+    </table>
+
+    <div class="image-container">
+      <img src="F:\Diseño Web\proyecto ddw\ssd-vs-hdd-speed-test.jpg">
+    </div>
+  </div>
+
+  <div class="content-section">
+    <h2 class="section-title">Recomendaciones según el uso</h2>
+    <ul>
+      <li><strong>Gaming / Edición de video:</strong> SSD recomendado por su velocidad de carga y transferencia.</li>
+      <li><strong>Almacenamiento masivo (películas, respaldo):</strong> HDD por su costo más bajo y gran capacidad.</li>
+      <li><strong>Laptops:</strong> SSD mejora el rendimiento y la autonomía de batería.</li>
+      <li><strong>Servidores / Centros de datos:</strong> SSDs NVMe ofrecen máxima velocidad; los HDDs aún se usan para backups.</li>
+    </ul>
+  </div>
+
+  <div class="content-section">
+    <h2 class="section-title">Conclusión</h2>
+    <p>Los SSD son ideales para quienes buscan velocidad, confiabilidad y eficiencia energética, mientras que los HDD siguen siendo válidos para quienes priorizan la capacidad a bajo costo. La mejor opción muchas veces es combinar ambos según el propósito de uso.</p>
+  </div>
+
+  <div class="volver">
+    <a href="file:///E:/Xpz/hardwaremenu.html">← Volver al Menú Principal</a>
+  </div>
+</body>
+</html>
